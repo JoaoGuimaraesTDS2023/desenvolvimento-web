@@ -1,0 +1,43 @@
+
+body 
+{
+    background:linear-gradient(to top, #093b2f, #2a7451, #4fa862);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1
+{
+    font-size: 60px;
+    line-height: 20px;
+    word-spacing: -10px;
+    letter-spacing: -2px;
+}
+
+h1 em
+{
+    color: rgb(220, 241, 97);
+}
+
+header ul li
+{
+    display: inline-flex;
+    color: white;
+}
+
+header ul 
+{
+    list-style: none;
+}
+
+header a
+{
+    color: white;
+    text-decoration: none;
+}
+
+header, main, footer 
+{
+    border: dotted red;
+    margin: 0 125px 0 125px;
+}
